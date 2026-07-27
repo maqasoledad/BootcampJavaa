@@ -1,0 +1,78 @@
+const impuestoEjemplo = 190;
+const cantidadEjemplo = 3;
+
+const totalEjemplo = (precioEjemplo + impuestoEjemplo) * cantidadEjemplo;
+console.log('el total de ${totalEjemplo}');
+
+// --------
+
+// operaciones de comparaciones
+// == o === (algo es igual a otra cosa)
+// != o !=== (algo es distintino a otra cosa)
+// > < >= <=
+
+const edadUsuario = 20;
+const edadMinima = 18;
+const rol = "admin";
+
+const tieneEdadPermitida = edadUsuario >= edadMinima;
+console.log(´¿el usuario tiene la edad minima permitida?´$tieneEdadPermitida )
+
+// operador de igual == o ===
+// declaracion - const variable
+// inicializacion - const varuable= 0 
+// el operador = sirve para asignar un valor (inicializar una variable)
+// el operador == sirve para comparar (js es debil)
+
+const rol = "admin";
+const esAdmin= rol=="admin";
+console.log(´el usuario tiene el rol permitido?: ${esAdmin}´);
+
+// el operador == sirve para compara (js es debil)
+const valorEjemplo = "1000";
+const esIgual =valorEjemplo === 1000;
+console.log('el valor es igual?': ${esIgual}´);
+
+// ----------------------
+// null y undefined: 
+//
+//
+
+let saldoBancario = 0;
+let limiteCredito; // valor undefined
+
+// comparacion con == debil
+console.log(´son iguales con ==?´, (saldoBancario === limiteCredito});
+
+// estructuras de decision
+// if -else (operadores relacionales)
+// variables para el ejemplo
+console.log("iniciando el proceso de validacion");
+if (edadUsuario => edadMinima){
+    console.log(´el usuario tiene permitido ingresar por que esm ayor de edad´ (${edadUsuario} años)´)
+}
+else {
+   console.log(´el usuario no tiene permitido ingresar por que es menor de edad (${edadUsuario}´ años)
+}
+
+console.log(´estamos en lineas de codigo afuera del IF´)
+
+// ooperadores relacionales Y, O, Negacion
+//y = & 
+console.log("iniciando el proceso de validacion");
+if ((edadUsuario => edadMinima) && (rol === "admin")){
+    console.log(´el usuario tiene permitido ingresar por que esm ayor de edad´ (${edadUsuario} años)´)
+}
+else {
+   console.log(´el usuario no tiene permitido ingresar por que es menor de edad (${edadUsuario}´ años)
+}
+
+console.log(´estamos en lineas de codigo afuera del IF´)
+
+
+
+
+
+
+
+
